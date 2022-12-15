@@ -1,8 +1,8 @@
 from pycocotools.coco import COCO
 from pycocoevalcap.eval import COCOEvalCap
 
-annotation_file = 'references.json'
-results_file = 'captions.json'
+annotation_file = 'references_example.json'
+results_file = 'captions_example.json'
 
 # create coco object and coco_result object
 coco = COCO(annotation_file)

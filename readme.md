@@ -65,7 +65,7 @@ Please check  [salaniz](https://github.com/salaniz)/**[pycocoevalcap](https://gi
 
 This repo is mainly based on the code from `pycocotools` and `pycocoevalcap` , which is designed for evaluation of MS COCO caption generation. Here the API was simplified, we can transfer the use of this evaluation tool to other caption datasets, such as Flickr8k, Flickr30k or any other else.  
 
-There are 2 `json` file saving the **references and candidate captions** were required. And `example/main.py`  would read these 2 `json` files and evaluate the scores automatically, then print them.
+There are 2 `json` file saving the **references and candidate captions** were required in `example/`. And `example/main.py`  would read these 2 `json` files and evaluate the scores automatically, then print them.
 
 The `references.json` and `captions.json` (candidate captions) were shown in `examples/` . In order to generate these files, please check the demo below:
 
@@ -159,7 +159,7 @@ Then we can check the saved `references.json` and `captions.json` if it is the s
         }, 
         {
             "image_id": "1", 
-            id: "1", 
+            "id": "1", 
             "caption": "there is a woman that is cutting a white cake"
         }, 
         {
