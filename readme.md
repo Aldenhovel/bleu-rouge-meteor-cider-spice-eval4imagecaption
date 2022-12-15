@@ -194,3 +194,9 @@ Then use command in `example/` to run `main.py` :
 python main.py
 ```
 
+# Reference
+
+-  [tylin](https://github.com/tylin)/**[coco-caption](https://github.com/tylin/coco-caption)**
+-  [cocodataset](https://github.com/cocodataset)/**[cocoapi](https://github.com/cocodataset/cocoapi)** 
+-  [salaniz](https://github.com/salaniz)/**[pycocoevalcap](https://github.com/salaniz/pycocoevalcap)** 
+
