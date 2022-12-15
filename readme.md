@@ -77,3 +77,6 @@ Then use command in terminal to run `main.py` :
 python main.py
 ```
 
+# Notice 
+
+Please 
