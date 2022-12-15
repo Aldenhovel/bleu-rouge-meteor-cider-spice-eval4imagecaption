@@ -114,7 +114,8 @@ Then we can check the saved `references.json` and `captions.json` if it is the s
 {
     "images": [
         {"id": "0"}, 
-        {"id": "1"}
+        {"id": "1"},
+        ....
     ], 
     "annotations": [
         {
@@ -165,7 +166,9 @@ Then we can check the saved `references.json` and `captions.json` if it is the s
         {
             "image_id": "1", 
             "id": "1",
-            "caption": "A woman marking a cake with the back of a chef's knife. "}
+            "caption": "A woman marking a cake with the back of a chef's knife. "
+        },
+        ....
     ]
 }
 ```
