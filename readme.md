@@ -194,9 +194,67 @@ Then use command in `example/` to run `main.py` :
 python main.py
 ```
 
+Terminal output:
+
+```
+>>
+loading annotations into memory...
+Done (t=0.01s)
+creating index...
+index created!
+Loading and preparing results...
+DONE (t=0.00s)
+creating index...
+index created!
+tokenization...
+PTBTokenizer tokenized 72388 tokens at 846674.96 tokens per second.
+PTBTokenizer tokenized 12514 tokens at 290819.68 tokens per second.
+setting up scorers...
+computing Bleu score...
+{'testlen': 10476, 'reflen': 10274, 'guess': [10476, 9476, 8476, 7476], 'correct': [7043, 3379, 1518, 669]}
+ratio: 1.0196612809031516
+Bleu_1: 0.672
+Bleu_2: 0.490
+Bleu_3: 0.350
+Bleu_4: 0.249
+computing METEOR score...
+METEOR: 0.201
+computing Rouge score...
+ROUGE_L: 0.472
+computing CIDEr score...
+CIDEr: 0.457
+computing SPICE score...
+Parsing reference captions
+Initiating Stanford parsing pipeline
+[main] INFO edu.stanford.nlp.pipeline.StanfordCoreNLP - Adding annotator tokenize
+[main] INFO edu.stanford.nlp.pipeline.TokenizerAnnotator - TokenizerAnnotator: No tokenizer type provided. Defaulting to PTBTokenizer.
+[main] INFO edu.stanford.nlp.pipeline.StanfordCoreNLP - Adding annotator ssplit
+[main] INFO edu.stanford.nlp.pipeline.StanfordCoreNLP - Adding annotator parse
+[main] INFO edu.stanford.nlp.parser.common.ParserGrammar - Loading parser from serialized file edu/stanford/nlp/models/lexparser/englishPCFG.ser.gz ...
+done [0.2 sec].
+[main] INFO edu.stanford.nlp.pipeline.StanfordCoreNLP - Adding annotator lemma
+[main] INFO edu.stanford.nlp.pipeline.StanfordCoreNLP - Adding annotator ner
+Loading classifier from edu/stanford/nlp/models/ner/english.all.3class.distsim.crf.ser.gz ... done [0.8 sec].
+Loading classifier from edu/stanford/nlp/models/ner/english.muc.7class.distsim.crf.ser.gz ... done [0.6 sec].
+Loading classifier from edu/stanford/nlp/models/ner/english.conll.4class.distsim.crf.ser.gz ... done [0.3 sec].
+Threads( StanfordCoreNLP ) [01:03.436 minutes]
+Parsing test captions
+Threads( StanfordCoreNLP ) [3.322 seconds]
+SPICE evaluation took: 1.182 min
+SPICE: 0.137
+Bleu_1: 0.672
+Bleu_2: 0.490
+Bleu_3: 0.350
+Bleu_4: 0.249
+METEOR: 0.201
+ROUGE_L: 0.472
+CIDEr: 0.457
+SPICE: 0.137
+```
+
 # Reference
 
--  [tylin](https://github.com/tylin)/**[coco-caption](https://github.com/tylin/coco-caption)**
+-  [tylin](https://github.com/tylin)/**[coco-caption](https://github.com/tylin/coco-caption)** 
 -  [cocodataset](https://github.com/cocodataset)/**[cocoapi](https://github.com/cocodataset/cocoapi)** 
 -  [salaniz](https://github.com/salaniz)/**[pycocoevalcap](https://github.com/salaniz/pycocoevalcap)** 
 
