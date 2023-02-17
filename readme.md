@@ -44,7 +44,7 @@ Please check  [salaniz](https://github.com/salaniz)/**[pycocoevalcap](https://gi
 >## Requirements
 >
 >- Java 1.8.0
->- Python 3
+>- Python 3.6
 >
 >## Installation
 >
