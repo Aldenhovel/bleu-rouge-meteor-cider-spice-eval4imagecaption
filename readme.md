@@ -76,7 +76,7 @@ The `references.json` and `captions.json` (candidate captions) were shown in `ex
 references = {
     "1": ["this is a tree", "this is an apple", ...],
     "2": ["a man is sitting", "a man in the street", ...],
-    ......
+    //......
 }
 
 captions = {
@@ -110,7 +110,7 @@ Then we can check the saved `references.json` and `captions.json` if it is the s
 
 - `references.json`
 
-```json
+```
 {
     "images": [
         {"id": "0"}, 
@@ -174,7 +174,7 @@ Then we can check the saved `references.json` and `captions.json` if it is the s
 ```
 
 - `captions.json`
-```json
+```
 [
     {
         "image_id": "0", 
